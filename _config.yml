@@ -18,13 +18,13 @@ plainwhite:
 
   # generate social links in footer
   social_links:
-    facebook: congthanh1166
+    # facebook: congthanh1166
     twitter: congthanh1166
     github:  congthanh97
     linkedIn: in/congthanh97
+    facebook: congthanh1166
     rss: rss
     # dribbble: jekyll
-    # facebook: jekyll
     # flickr:   jekyll
     # instagram: jekyll
     # linkedin: jekyll
