@@ -32,6 +32,6 @@ categories: Javascript html css
 
 </p>
 
-<div class=" display: block;margin-left: auto;margin-right: auto;width: 50%;">
+<div style="display: block;margin-left: auto;margin-right: auto;width: 50%;">
 ![Laptopnumberone](/assets/pc.gif)
 </div>
