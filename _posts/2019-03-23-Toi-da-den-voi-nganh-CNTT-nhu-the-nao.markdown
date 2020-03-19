@@ -31,4 +31,5 @@ categories: Javascript html css
     Nghe tới đây thì các bạn cũng biết hoàn cảnh ra đình mình như thế nào rồi đó. Nhưng năm đó cũng không phải đợi đến hết năm học hay kỳ một năm nhất được hỏng bổng mới mua, mà bố mẹ mình thấy bạn bè có máy tính con mình không có để học  và đã bán lúa , vay mượn rồi mua được chiếc máy tính mà đến h mình vẫn dùng vẫn oke, cũng không quá đắt cũng không quá rẻ . Giá chiếc máy tính mà mình được mua là giá tầm chung như những chiệc máy tính khác.
 
 </p>
-![](/assets/pc.PNG)
+
+![Laptopnumberone](/assets/pc.gif)
