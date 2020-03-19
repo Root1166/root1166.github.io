@@ -12,5 +12,10 @@ categories: Javascript html css
 
  <h4>Chiếc laptop đầu tiên</h4>
  'blalalalalala'
+<blockquote>
+    <div style="text-align:justify;">
+    “Nếu mày thi được giải HSG, chỉ cần giải khuyến khích thôi cũng được là tao sẽ cho mày cái laptop tao đang dùng . Nếu mày thi tỉnh có giải tao sẽ mua cho mày một cái máy mới.”
+    </div>
+ </blockquote>
 
  Wow... Wow....
