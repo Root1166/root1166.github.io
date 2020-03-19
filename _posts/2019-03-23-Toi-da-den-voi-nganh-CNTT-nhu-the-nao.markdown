@@ -32,4 +32,4 @@ categories: Javascript html css
 
 </p>
 
-![Laptopnumberone](/assets/pc.gif?style=centerme)
+![Laptopnumberone](/assets/pc.gif) {.center}
