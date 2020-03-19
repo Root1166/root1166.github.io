@@ -34,7 +34,7 @@ categories: Javascript html css
 
 ![Laptopnumberone](/assets/pc.gif) 
 
-
+<!-- 
 <div style=" display: block;
   margin-left: auto;
   margin-right: auto;
@@ -43,4 +43,11 @@ categories: Javascript html css
 ![Laptopnumberone](/assets/pc.gif) 
 </div>
 </div>
----
+--- -->
+
+<p style="display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;">
+    
+</p>
