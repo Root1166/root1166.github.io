@@ -32,7 +32,7 @@ categories: Javascript html css
 
 </p>
 
-![Laptopnumberone](/assets/pc.gif) 
+<!-- ![Laptopnumberone](/assets/pc.gif)  -->
 
 
 
@@ -40,6 +40,6 @@ categories: Javascript html css
   margin-left: auto;
   margin-right: auto;
   width: 50%;">
-   <img width="460" height="300" src="http://www.fillmurray.com/460/300"></img>
-   ![Laptopnumberone](http://www.fillmurray.com/460/300) 
+   <img width="460" height="300" src="/assets/pc.gif"></img>
+   <!-- ![Laptopnumberone](http://www.fillmurray.com/460/300)  -->
 </p>
