@@ -32,6 +32,4 @@ categories: Javascript html css
 
 </p>
 
-<div style="display: block;margin-left: auto;margin-right: auto;width: 50%;">
-![Laptopnumberone](/assets/pc.gif)
-</div>
+![Laptopnumberone](/assets/pc.gif?style=centerme)
