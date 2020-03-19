@@ -34,20 +34,11 @@ categories: Javascript html css
 
 ![Laptopnumberone](/assets/pc.gif) 
 
-<!-- 
-<div style=" display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;">
-<div markdown=“1”>
-![Laptopnumberone](/assets/pc.gif) 
-</div>
-</div>
---- -->
+
 
 <p style="display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;">
-    
+   <img width="460" height="300" src="http://www.fillmurray.com/460/300"></img>
 </p>
