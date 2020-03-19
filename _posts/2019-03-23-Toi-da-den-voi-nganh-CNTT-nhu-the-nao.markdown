@@ -41,4 +41,5 @@ categories: Javascript html css
   margin-right: auto;
   width: 50%;">
    <img width="460" height="300" src="http://www.fillmurray.com/460/300"></img>
+   ![Laptopnumberone](http://www.fillmurray.com/460/300) 
 </p>
