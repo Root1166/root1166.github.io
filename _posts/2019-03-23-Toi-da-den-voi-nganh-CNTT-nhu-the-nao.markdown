@@ -32,4 +32,15 @@ categories: Javascript html css
 
 </p>
 
-![Laptopnumberone](/assets/pc.gif) {.center}
+![Laptopnumberone](/assets/pc.gif) 
+
+
+<div style=" display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;">
+<div markdown=“1”>
+![Laptopnumberone](/assets/pc.gif) 
+</div>
+</div>
+---
