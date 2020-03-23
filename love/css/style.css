@@ -103,6 +103,8 @@ h1 {
     border: 0;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
+    left: 700px;
+    top: 300px;
     padding: 15px 25px;
     position: absolute;
     cursor: pointer;
@@ -198,13 +200,13 @@ h1 {
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
     #co {
         /* background: #C5062C; */
-        left: 250px;
-        top: 700px;
+        left: 180px;
+        top: 600px;
     }
     #lbNo {
         /* background: #C5062C; */
-        left: 40px;
-        top: 700px;
+        left: 10px;
+        top: 600px;
     }
 }
 
