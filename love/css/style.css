@@ -199,12 +199,12 @@ h1 {
     #co {
         /* background: #C5062C; */
         left: 250px;
-        top: 500px;
+        top: 700px;
     }
     #lbNo {
         /* background: #C5062C; */
         left: 40px;
-        top: 500px;
+        top: 700px;
     }
 }
 
@@ -212,14 +212,14 @@ h1 {
     #co {
         /* background: #C5062C; */
         left: 300px;
-        top: 500px;
+        top: 700px;
     }
     #lbNo {
         /* background: #C5062C; */
         border: 0;
         position: absolute;
         left: 100px;
-        top: 500px;
+        top: 700px;
     }
 }
 
