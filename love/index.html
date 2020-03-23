@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo modal</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="/js/script.js"></script>
+    <script src="/js/jquery.js"></script>
+    <script language="javascript">
+        var kt = false
+
+        function move() {
+            var x = Math.random() * 500
+            var y = Math.random() * 500
+            var left = x + 'px'
+            var top = y + 'px'
+            document.getElementById('lbNo').style.left = left
+            document.getElementById('lbNo').style.top = top
+        }
+
+        function dongy() {
+            if (kt == false) {
+
+                kt = true
+            } else {}
+        }
+    </script>
+</head>
+
+<body onload="popup('<p>Hãy trả lời câu hỏi này nhé.. Trả lời cho thật lòng đó nghe chưa :-*</p></br>'); on()" onunload="s()">
+
+    <div id="bg"></div>
+    <div class="container-fluid">
+        <div class="container">
+            <div id="myModal" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <div id="traloi">
+                        <h1>
+                            <center>NÓI VỚI ANH <img src="http://vozforums.com/images/smilies/Off/angry.gif" /></center>
+                        </h1>
+                        </br>
+                        <p>- Có phải em yêu anh vì anh quá tốt không ? <img src="http://vozforums.com/images/smilies/Off/nosebleed.gif" /></p>
+
+                        <p>- Nhập câu trả lời xuống bên dưới và bấm GỬI ĐI</br>
+                            </br>
+                        </p>
+                        <form id="f" name="f">
+                            <div class="form-group">
+                                <label for="tl">Trả lời</label>
+                                <input id="form" name="txt" type="text" class="form-control" placeholder="Nhập câu trả lời" />
+                            </div>
+                            <div class="form-group">
+                                <input id="gui" onclick="Yeu();" type="button" value="Gửi đi" />
+                            </div>
+                        </form>
+                    </div>
+
+                    <div style="clear: both;"></div>
+
+                    <div id="divResult" style="text-align: center"></div>
+
+                    <div id="divResult2"></div>
+
+                    <div id="divResult3"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div style="margin-bottom: 10px; margin-top: 30px;"></div>
+    <!-- pssdd -->
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="msg">
+                    <h1>EM CÓ YÊU ANH KHÔNG ?</h1>
+                    <h2>NẾU MÀ EM TẮT CÁI NÀY ĐI, KHÔNG TRẢ LỜI</br>
+                        SẼ PHẢI THEO ANH SUỐT ĐỜI ĐÓ ♥ =))</h2>
+                </div>
+            </div>
+            <div class="row">
+                <center>
+                    <div id="co">
+                        <a href="#" data-reveal-id="myModal" class="btn btn-primary" id="myBtn">Em Có !YÊU ANH</a>
+                    </div>
+
+                    <div id="lbNo" style="position:absolute; left: 700px; top: 300px;">
+                        <input type="button" value="KHÔNG BAO GIỜ" class="btn btn-success" style="cursor:pointer;" onMouseMove="move()">
+                    </div>
+                </center>
+            </div>
+
+        </div>
+    </div>
+
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
