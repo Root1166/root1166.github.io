@@ -203,14 +203,14 @@ h1 {
     #co {
         /* background: #C5062C; */
         left: 180px;
-        top: 600px;
+        top: 400px;
         display: block
     }
     #lbNo {
         /* background: #C5062C; */
         position: absolute;
         left: 10px;
-        top: 600px;
+        top: 400px;
         display: block;
     }
 }
