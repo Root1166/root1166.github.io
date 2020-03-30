@@ -1,54 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     {%- include head.html -%}
-  </head>
-  <body>
+</head>
+
+<body>
     <main class="container">
-      <section class="about">
-        <a href="/"><img src="{{ "/assets/avatar.jpg" | relative_url }}" style="border-radius: 50%;" alt="{{ site.plainwhite.name }}"></a>
-        <h2 id="title">
-          <a href="/">{{ site.plainwhite.name }}</a>
-        </h2>
-        <p class="tagline">{{ site.plainwhite.tagline }}</p>
-        <ul class="social">
-          {%- if site.plainwhite.social_links.facebook -%}
-          <!-- https://www.facebook.com/congthanh -->
-            <a href="https://www.facebook.com/{{site.plainwhite.social_links.facebook }}">
-              <li>
-                <img class="icon-facebook" src="{{ "/assets/png/facebook_alt.png" | relative_url }}" ">
+        <section class="about">
+            <a href="/"><img src="{{ " /assets/avatar.jpg " | relative_url }}" style="border-radius: 50%;" alt="{{ site.plainwhite.name }}"></a>
+            <h2 id="title">
+                <a href="/">{{ site.plainwhite.name }}</a>
+            </h2>
+            <p class="tagline">{{ site.plainwhite.tagline }}</p>
+            <ul class="social">
+                {%- if site.plainwhite.social_links.facebook -%}
+                <!-- https://www.facebook.com/congthanh -->
+                <a href="https://www.facebook.com/{{site.plainwhite.social_links.facebook }}">
+                    <li>
+                        <img class="icon-facebook" src="{{ " /assets/png/facebook_alt.png " | relative_url }}" ">
               </li>
             </a>
           {%- endif -%}
           {%- if site.plainwhite.social_links.github -%}
-            <a href="https://github.com/{{ site.plainwhite.social_links.github }}">
+            <a href="https://github.com/{{ site.plainwhite.social_links.github }} ">
               <li>
-                <i class="icon-github-circled"></i>
+                <i class="icon-github-circled "></i>
               </li>
             </a>
           {%- endif -%}
           {%- if site.plainwhite.social_links.linkedIn -%}
-            <a href="https://www.linkedin.com/{{ site.plainwhite.social_links.linkedIn }}">
+            <a href="https://www.linkedin.com/{{ site.plainwhite.social_links.linkedIn }} ">
               <li>
-                <i class="icon-linkedin-squared"></i>
+                <i class="icon-linkedin-squared "></i>
               </li>
             </a>
           {%- endif -%}
           {%- if site.plainwhite.social_links.twitter -%}
-            <a href="https://twitter.com/{{ site.plainwhite.social_links.twitter }}">
+            <a href="https://twitter.com/{{ site.plainwhite.social_links.twitter }} ">
               <li>
-                <i class="icon-twitter-squared"></i>
+                <i class="icon-twitter-squared "></i>
               </li>
             </a>
           {%- endif -%}
         </ul>
 
         {%- if site.plainwhite.navigation -%}
-          <nav class="navigation">
+          <nav class="navigation ">
             <ul>
               {% for link in site.plainwhite.navigation %}
                 <li>
-                  <a href="{{ link.url }}">{{ link.title }}</a>
+                  <a href="{{ link.url }} ">{{ link.title }}</a>
                 </li>
               {% endfor %}
             </ul>
@@ -56,14 +58,15 @@
         {%- endif -%}
 
         <p>&copy;
-          {{ "now" day: "%-d" | date: "%Y" }}</p>
+          {{ "now " day: "%-d " | date: "%Y " }}</p>
       </section>
-      <section class="content">
+      <section class="content ">
         {{ content }}
       </section>
+      {%- include footer.html -%}
     </main>
     {%- if site.plainwhite.analytics_id -%}
-      <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.plainwhite.analytics_id }}"></script>
+      <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.plainwhite.analytics_id }} "></script>
       <script>
 		window.dataLayer = window.dataLayer || [];
 		function gtag() { dataLayer.push(arguments); }
