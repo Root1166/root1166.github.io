@@ -41,7 +41,7 @@ categories: Javascript html css
 
 
 <div style="height: 250px; width: 100%;">
-    <div class="fb-comments" data-href="https://root5867.github.io/exJS/clock/" data-width="" data-numposts="5">
+    <div class="fb-comments" data-href="https://root5867.github.io" data-width="" data-numposts="5">
     </div>
 </div>
 <div id="fb-root"></div>
