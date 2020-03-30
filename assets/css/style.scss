@@ -1,13 +1,13 @@
----
----
-
-@import "plain";
-
-
-.icon-facebook{
-   font-size: 34px;
+--- --- @import "plain";
+.icon-facebook {
+    font-size: 34px;
 }
 
-.icon-facebook:hover{
+.icon-facebook:hover {
     color: green;
+}
+
+.faceComment {
+    height: 250px;
+    width: 100%;
 }
