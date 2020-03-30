@@ -1,24 +1,30 @@
+.btn {
+    font-size: 30px;
+}
+
 table {
     background-color: #808080;
     margin: auto;
-    width: 200px;
-    height: 150px;
+    width: 500px;
+    height: 300px;
     margin-top: 200px;
 }
 
 #Result {
-    width: 200px;
+    width: 512px;
+    height: 40px;
+    font-size: 30px;
 }
 
 .btn {
-    width: 34px;
-    height: 34px;
+    width: 100px;
+    height: 90px;
 }
 
 #numrezo {
-    width: 80px;
+    width: 202px;
 }
 
 #equ {
-    height: 80px;
+    height: 180px;
 }
