@@ -32,6 +32,8 @@ categories: Javascript html css
 </p>
 
 
+
+
 <p style="display: block;
   margin-left: auto;
   margin-right: auto;
