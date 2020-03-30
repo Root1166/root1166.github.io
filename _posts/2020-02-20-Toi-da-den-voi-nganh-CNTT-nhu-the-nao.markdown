@@ -41,10 +41,9 @@ categories: Javascript html css
 
 
 <div style="height: 250px; width: 100%;">
-    <div class="fb-comments" data-href="https://root5867.github.io" data-width="" data-numposts="5">
+    <div class="fb-comments" data-href="https://root5867.github.io/javascript/html/css/2020/02/20/Toi-da-den-voi-nganh-CNTT-nhu-the-nao.html" data-width="" data-numposts="5">
     </div>
 </div>
 <div id="fb-root"></div>
-<script async defer crossorigin="anonymous"
-        src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v6.0&appId=2477828602276902&autoLogAppEvents=1">
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v6.0&appId=2477828602276902&autoLogAppEvents=1">
 </script>
