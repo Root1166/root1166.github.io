@@ -10,10 +10,10 @@ categories: Javascript html css
  - Những bài viết ở đây mình hướng đến việc chia sẻ cảm nghĩ và những gì bản thân mình đã trải qua. Hi vọng những bài viết của mình sẽ giúp các bạn tháo gỡ được các nút thắt từ đơn giản đến khó khăn nhất không chỉ trong lĩnh vực CNTT mà còn các lĩnh vực khác trong cuộc sống. Nếu bạn thấy những bài viết mình chia sẻ thú vị và hữu ích thì đừng ngần ngại tương tác, trao đổi với mình nha.
  </p>
 
- <h4> Ước mơ đầu tiên trước khi học CNTT</h4>
+ <h2> Ước mơ đầu tiên trước khi học CNTT</h2>
  <p class="textPost"> Ước mơ đầu tiên của mình là đạt được điểm cao để  đỗ  vào trường công an hay một trường quân đội nào đó. Ước mơ này đã theo mình hết cả 3 năm cấp 3 các bạn ạ. Nhưng đến hiện tại thì ước mơ đó của mình đã không thành hiện thực.Chính vì thế mình đã quyết định nộp bảng điểm vào một trường đại học nào đó và mình nghĩ là  trường gì gì đó sẽ giúp mình thành công trong tương lại.vvv. Nhưng không phải vậy đâu các bạn ạ. Danh tiếng của một trường đại học chỉ chiếm một phần cho sự phát triển của bạn sau này thui, mọi sự thành công sau này của bạn là phải nhờ vào chính bạn. Dù một người học một trường không có danh tiếng nhưng người đó biết nỗ  lực học và kiếm tiền thì người đó vẫn giỏi vẫn thành công hay không cần học đại học họ vẫn kiếm được thật nhiều tiền.vvv </p>
 
- <h4>Chiếc laptop đầu tiên</h4>
+ <h2>Chiếc laptop đầu tiên</h2>
 <blockquote>
     <div class="textPost">
     “Cứ học một năm đại học đi đã rồi mẹ sẽ mua cho. Nếu con được học bổng, học kỳ một mẹ mua luôn cho con. Còn không thì cuối năm nhất mẹ mới mua cho. ”
@@ -39,7 +39,7 @@ categories: Javascript html css
 </p>
 
 
-<h4>Mày Mò học code đánh máy</h4>
+<h2>Mày Mò học code đánh máy</h2>
 <p class ="textPost">
     Câu chuyện về một thanh niên mới bước chân vào đại học, tiếp cận tin học, và học cách lập trình bắt đầu từ đây. Có laptop trên tay, luyện đánh 10 ngón trong một khoảng thời gian dài mới nhanh được và giờ cũng đủ dùng rồi. Xong bắt đầu thấy một người bạn trong thư viện tải phần mền lập trình C/C++ về thế  là mình cũng bắt trước về  tải và bắt đầu học C và C++ từ đây. Cài đặt xong và hình dung trong đầu mình là h phải học từ đầu đây. Thế  là lên mạng search rất nhiều tài liệu các bạn ạ. <br><br>
 
@@ -50,7 +50,7 @@ categories: Javascript html css
 
 </p>
 
-<h3>Lời kết: </h3>
+<h2>Lời kết: </h2>
 
 <p class="textPost">
      Mỗi người trong chúng ta đều mang những màu sắc khác nhau của cuộc sống. Có thể khoảng cách từ vạch xuất phát đến đích của bạn xa hơn người khác, nhưng điều đó không đồng nghĩa với việc thời gian đến đích của bạn sẽ lâu hơn người khác. Và mình cũng vậy bây giờ mình cũng chưa có công việc thực sự ổn định. Mình sẽ cố gắng tiếp tục học tập và rèn luyện bản thân thôi nhất định sau này sẽ có. Mỗi người sẽ có một câu chuyện cuộc đời khác nhau, nên đừng vội nản chí hay đổ lỗi cho số phận. Hãy dùng hết lực bình sinh để phá tan bức tường khó khăn xung quanh bạn, như thế  là bạn đã chiến thắng được bản thân mình rồi. Bạn hãy cùng mình vượt qua mọi vỏ bọc vô hình, xông pha hiên ngang tiến đến sự thành công nha. Thực sự cảm ơn các bạn đã đọc bài viết của mình. Trên đây là nhưng gì mới đầu mình chia sẻ về  con đường mình bước vào học CNTT, mong các bạn đọc comment ý kiến, có nhưng gì thì gửi phẩn hồi lại cho mình biết nhé. Cảm Ơn các bạn đã ghé thăm blog của mình. Thank you very much !!!
