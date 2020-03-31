@@ -44,5 +44,14 @@ categories: Javascript html css
     Câu chuyện về một thanh niên mới bước chân vào đại học, tiếp cận tin học, và học cách lập trình bắt đầu từ đây. Có laptop trên tay, luyện đánh 10 ngón trong một khoảng thời gian dài mới nhanh được và giờ cũng đủ dùng rồi. Xong bắt đầu thấy một người bạn trong thư viện tải phần mền lập trình C/C++ về thế  là mình cũng bắt trước về  tải và bắt đầu học C và C++ từ đây. Cài đặt xong và hình dung trong đầu mình là h phải học từ đầu đây. Thế  là lên mạng search rất nhiều tài liệu các bạn ạ. <br><br>
 
     Những ngày đầu học lập trình thật khó khăn. Nếu như các bạn học lập trình lên search Google tìm tài liệu và học với tốc độ cực nhanh thì với mình lúc đó, có laptop hay không cũng như nhau, không thể tiếp cận kiến thức mới, khả năng không thể tăng lên được vì mình tư duy thuật toán rất là kém và mình đã dừng việc lập trình lại. Có một giai đoạn gần 3 tuần  mình bỏ nó trên bàn và không mở lên lần nào.
+    
+<br><br>
+    Sau này hết năm nhất mình bước sang năm học thứ 2  thì mình mới tiếp cận đến html,css một chút cũng gọi là tập tành chút thui, cũng không biết nhiều. Xong mình đi thực tập lập trình vào cuối năm 2, ngày đó đi còn rất nhiều điều mình còn chưa học và biết đến và mình cũng làm được một thời gian ở công ty không quá dài cũng không quá ngắn nhưng những anh chị trong công ty thật sự nhiệt tình chỉ bảo và mình tiếp cận thêm được những cái mới. Và đến h mình cũng biết thêm được nhiều từ anh chị trong công ty đó. Học thêm về  js .vvv và mây mây.  
 
+</p>
+
+<h3>Lời kết: </h3>
+
+<p class="textPost">
+     Mỗi người trong chúng ta đều mang những màu sắc khác nhau của cuộc sống. Có thể khoảng cách từ vạch xuất phát đến đích của bạn xa hơn người khác, nhưng điều đó không đồng nghĩa với việc thời gian đến đích của bạn sẽ lâu hơn người khác. Và mình cũng vậy bây giờ mình cũng chưa có công việc thực sự ổn định. Mình sẽ cố gắng tiếp tục học tập và rèn luyện bản thân thôi nhất định sau này sẽ có. Mỗi người sẽ có một câu chuyện cuộc đời khác nhau, nên đừng vội nản chí hay đổ lỗi cho số phận. Hãy dùng hết lực bình sinh để phá tan bức tường khó khăn xung quanh bạn, như thế  là bạn đã chiến thắng được bản thân mình rồi. Bạn hãy cùng mình vượt qua mọi vỏ bọc vô hình, xông pha hiên ngang tiến đến sự thành công nha. Thực sự cảm ơn các bạn đã đọc bài viết của mình. Trên đây là nhưng gì mới đầu mình chia sẻ về  con đường mình bước vào học CNTT, mong các bạn đọc comment ý kiến, có nhưng gì thì gửi phẩn hồi lại cho mình biết nhé. Cảm Ơn các bạn đã ghé thăm blog của mình. Thank you very much !!!
 </p>
