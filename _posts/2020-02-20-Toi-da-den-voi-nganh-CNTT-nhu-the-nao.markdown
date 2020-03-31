@@ -21,7 +21,9 @@ categories: Javascript html css
   </p>
 </div>
 
- Wow... Wow....
+<p class="textPost">
+    Wow... Wow....
+</p>
 
 <p class="textPost">
     Các bạn biết không, đấy là lời hứa của mẹ mình đối với mình. Nhưng thật sự nhà mình mua đươc một chiếc máy tính là cực kỳ khó khăn .Nếu mà mua là bố mẹ mình lại phải đi vay tiền, bán lúa .vvv , mới mua được. Mua được rồi thì bố mẹ lại lao đầu vào làm để trả nợ.
