@@ -41,7 +41,7 @@ categories: Javascript html css
 
 <h4>Mày Mò học code đánh máy</h4>
 <p class ="textPost">
-    Câu chuyện về một thanh niên mới bước chân vào đại học, tiếp cận tin học, và học cách lập trình bắt đầu từ đây. Có laptop trên tay, luyện đánh 10 ngón trong một khoảng thời gian dài mới nhanh được và giờ cũng đủ dùng rồi. Xong bắt đầu thấy một người bạn trong thư viện tải phần mền lập trình C/C++ về thế  là mình cũng bắt trước về  tải và bắt đầu học C và C++ từ đây. Cài đặt xong và hình dung trong đầu mình là h phải học từ đầu đây. Thế  là lên mạng search rất nhiều tài liệu các bạn ạ. <br>
+    Câu chuyện về một thanh niên mới bước chân vào đại học, tiếp cận tin học, và học cách lập trình bắt đầu từ đây. Có laptop trên tay, luyện đánh 10 ngón trong một khoảng thời gian dài mới nhanh được và giờ cũng đủ dùng rồi. Xong bắt đầu thấy một người bạn trong thư viện tải phần mền lập trình C/C++ về thế  là mình cũng bắt trước về  tải và bắt đầu học C và C++ từ đây. Cài đặt xong và hình dung trong đầu mình là h phải học từ đầu đây. Thế  là lên mạng search rất nhiều tài liệu các bạn ạ. <br><br>
 
     Những ngày đầu học lập trình thật khó khăn. Nếu như các bạn học lập trình lên search Google tìm tài liệu và học với tốc độ cực nhanh thì với mình lúc đó, có laptop hay không cũng như nhau, không thể tiếp cận kiến thức mới, khả năng không thể tăng lên được vì mình tư duy thuật toán rất là kém và mình đã dừng việc lập trình lại. Có một giai đoạn gần 3 tuần  mình bỏ nó trên bàn và không mở lên lần nào.
 
