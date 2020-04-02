@@ -1,77 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     {%- include head.html -%}
-  </head>
-  <body>
+</head>
+
+<body>
+    <script>
+        window.fbAsyncInit = function() {
+            FB.init({
+                appId: '1430065787143715',
+                cookie: true,
+                xfbml: true,
+                version: 'v4.0'
+            });
+
+            FB.AppEvents.logPageView();
+
+        };
+
+        (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) {
+                return;
+            }
+            js = d.createElement(s);
+            js.id = id;
+            js.src = "https://connect.facebook.net/en_US/sdk.js";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+
     <main class="container">
-      <section class="about">
-        <a href="/"><img src="{{ "/assets/avatar.jpg" | relative_url }}" style="border-radius: 50%;" alt="{{ site.plainwhite.name }}"></a>
-        <h2 id="title">
-          <a href="/">{{ site.plainwhite.name }}</a>
-        </h2>
-        <p class="tagline">{{ site.plainwhite.tagline }}</p>
-        <ul class="social">
-          {%- if site.plainwhite.social_links.facebook -%}
-          <!-- https://www.facebook.com/congthanh -->
-            <a href="https://www.facebook.com/{{site.plainwhite.social_links.facebook }}">
-              <li>
-                <img class="icon-facebook" src="{{ "/assets/png/facebook_alt.png" | relative_url }}" >
-              </li>
-            </a>
-          {%- endif -%}
-          {%- if site.plainwhite.social_links.github -%}
-            <a href="https://github.com/{{ site.plainwhite.social_links.github }}">
-              <li>
-                <i class="icon-github-circled"></i>
-              </li>
-            </a>
-          {%- endif -%}
-          {%- if site.plainwhite.social_links.linkedIn -%}
-            <a href="https://www.linkedin.com/{{ site.plainwhite.social_links.linkedIn }}">
-              <li>
-                <i class="icon-linkedin-squared"></i>
-              </li>
-            </a>
-          {%- endif -%}
-          {%- if site.plainwhite.social_links.twitter -%}
-            <a href="https://twitter.com/{{ site.plainwhite.social_links.twitter }}">
-              <li>
-                <i class="icon-twitter-squared"></i>
-              </li>
-            </a>
-          {%- endif -%}
-        </ul>
-
-        {%- if site.plainwhite.navigation -%}
-          <nav class="navigation">
-            <ul>
-              {% for link in site.plainwhite.navigation %}
-                <li>
-                  <a href="{{ link.url }}">{{ link.title }}</a>
-                </li>
-              {% endfor %}
+        <section class="about">
+            <a href="/"><img src="{{ " /assets/avatar.jpg " | relative_url }}" style="border-radius: 50%;" alt="{{ site.plainwhite.name }}"></a>
+            <h2 id="title">
+                <a href="/">{{ site.plainwhite.name }}</a>
+            </h2>
+            <p class="tagline">{{ site.plainwhite.tagline }}</p>
+            <ul class="social">
+                {%- if site.plainwhite.social_links.facebook -%}
+                <!-- https://www.facebook.com/congthanh -->
+                <a href="https://www.facebook.com/{{site.plainwhite.social_links.facebook }}">
+                    <li>
+                        <img class="icon-facebook" src="{{ " /assets/png/facebook_alt.png " | relative_url }}">
+                    </li>
+                </a>
+                {%- endif -%} {%- if site.plainwhite.social_links.github -%}
+                <a href="https://github.com/{{ site.plainwhite.social_links.github }}">
+                    <li>
+                        <i class="icon-github-circled"></i>
+                    </li>
+                </a>
+                {%- endif -%} {%- if site.plainwhite.social_links.linkedIn -%}
+                <a href="https://www.linkedin.com/{{ site.plainwhite.social_links.linkedIn }}">
+                    <li>
+                        <i class="icon-linkedin-squared"></i>
+                    </li>
+                </a>
+                {%- endif -%} {%- if site.plainwhite.social_links.twitter -%}
+                <a href="https://twitter.com/{{ site.plainwhite.social_links.twitter }}">
+                    <li>
+                        <i class="icon-twitter-squared"></i>
+                    </li>
+                </a>
+                {%- endif -%}
             </ul>
-          </nav>
-        {%- endif -%}
 
-        <p>&copy;
-          {{ "now" day: "%-d" | date: "%Y" }}</p>
-      </section>
-      <section class="content">
-        {{ content }}
+            {%- if site.plainwhite.navigation -%}
+            <nav class="navigation">
+                <ul>
+                    {% for link in site.plainwhite.navigation %}
+                    <li>
+                        <a href="{{ link.url }}">{{ link.title }}</a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </nav>
+            {%- endif -%}
 
-      </section>
+            <p>&copy; {{ "now" day: "%-d" | date: "%Y" }}</p>
+        </section>
+        <section class="content">
+            {{ content }}
+
+        </section>
     </main>
     {%- if site.plainwhite.analytics_id -%}
-      <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.plainwhite.analytics_id }}"></script>
-      <script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag() { dataLayer.push(arguments); }
-		gtag('js', new Date());
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.plainwhite.analytics_id }}"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
 
-		gtag('config', '{{ site.plainwhite.analytics_id }}');
-	</script>
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', '{{ site.plainwhite.analytics_id }}');
+    </script>
     {%- endif -%}
-  </body>
+</body>
+
 </html>
