@@ -60,6 +60,8 @@ categories: Javascript html css
      Mỗi người trong chúng ta đều mang những màu sắc khác nhau của cuộc sống. Có thể khoảng cách từ vạch xuất phát đến đích của bạn xa hơn người khác, nhưng điều đó không đồng nghĩa với việc thời gian đến đích của bạn sẽ lâu hơn người khác. Và mình cũng vậy bây giờ mình cũng chưa có công việc thực sự ổn định. Mình sẽ cố gắng tiếp tục học tập và rèn luyện bản thân thôi nhất định sau này sẽ có. Mỗi người sẽ có một câu chuyện cuộc đời khác nhau, nên đừng vội nản chí hay đổ lỗi cho số phận. Hãy dùng hết lực bình sinh để phá tan bức tường khó khăn xung quanh bạn, như thế  là bạn đã chiến thắng được bản thân mình rồi. Bạn hãy cùng mình vượt qua mọi vỏ bọc vô hình, xông pha hiên ngang tiến đến sự thành công nha. Thực sự cảm ơn các bạn đã đọc bài viết của mình. Trên đây là nhưng gì mới đầu mình chia sẻ về  con đường mình bước vào học CNTT, mong các bạn đọc comment ý kiến, có nhưng gì thì gửi phản hồi lại cho mình biết nhé. Cảm Ơn các bạn đã ghé thăm blog của mình. Thank you very much !!!
 </p>
 
+ <div class="fb-like" data-href="https://root5867.github.io/javascript/html/css/2020/02/20/Toi-da-den-voi-nganh-CNTT-nhu-the-nao.html" data-width="300" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
+
 <div class="faceComment">
     <div class="fb-comments" data-href="https://root5867.github.io/javascript/html/css/2020/02/20/Toi-da-den-voi-nganh-CNTT-nhu-the-nao.html" data-width="" data-numposts="5">
     </div>
