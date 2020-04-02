@@ -33,7 +33,7 @@
 
     <main class="container">
         <section class="about">
-            <a href="/"><img src="{{ " /assets/avatar.jpg " | relative_url }}" style="border-radius: 50%;" alt="{{ site.plainwhite.name }}"></a>
+            <a href="/"><img src="{{ "/assets/avatar.jpg " | relative_url }}" style="border-radius: 50%;" alt="{{ site.plainwhite.name }}"></a>
             <h2 id="title">
                 <a href="/">{{ site.plainwhite.name }}</a>
             </h2>
@@ -43,7 +43,7 @@
                 <!-- https://www.facebook.com/congthanh -->
                 <a href="https://www.facebook.com/{{site.plainwhite.social_links.facebook }}">
                     <li>
-                        <img class="icon-facebook" src="{{ " /assets/png/facebook_alt.png " | relative_url }}">
+                        <img class="icon-facebook" src="{{ "/assets/png/facebook_alt.png " | relative_url }}">
                     </li>
                 </a>
                 {%- endif -%} {%- if site.plainwhite.social_links.github -%}
