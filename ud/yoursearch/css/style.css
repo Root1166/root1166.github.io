@@ -45,7 +45,7 @@ header {
     margin-top: 10px;
 }
 
-#logo>img {
+#logo>a>img {
     padding: 0;
     border-radius: 50%;
     width: 80%;

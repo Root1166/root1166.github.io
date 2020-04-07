@@ -78,6 +78,10 @@ function nextPage() {
 
     q = $('#query').val();
 
+    $.get("https://www.googleapis.com/youtube/v3/search", {
+
+    });
+
     // GET request
     $.get("https://www.googleapis.com/youtube/v3/search", {
             part: 'snippet,id',
