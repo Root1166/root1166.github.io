@@ -79,7 +79,7 @@ $(document).ready(function() {
 $(document).ready(function() {
     $("#Animate").click(function() {
         $("#div4").animate({
-            left: '150px',
+            left: '50px',
             opacity: '0.5',
             height: '150px',
             width: '150px'
