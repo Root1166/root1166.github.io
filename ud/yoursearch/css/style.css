@@ -225,11 +225,11 @@ footer {
     }
 }
 
-@media only screen and (max-width: 480px) and (min-width: 360px) {
+@media only screen and (max-width: 480px) and (min-width: 370px) {
     .button-container {
         margin-top: 25px;
         margin: auto;
-        width: 72%;
+        width: 65%;
     }
     .paging-button {
         background: #f4f4f4;
@@ -242,7 +242,7 @@ footer {
     }
 }
 
-@media only screen and (max-width: 360px) and (min-width: 200px) {
+@media only screen and (max-width: 370px) and (min-width: 200px) {
     .button-container {
         margin-top: 25px;
         margin: auto;
