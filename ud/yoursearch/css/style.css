@@ -157,11 +157,110 @@ footer {
     color: #dd2826;
 }
 
-.button-container {
-    margin-top: 25px;
+@media only screen and (max-width: 2000px) and (min-width: 1000px) {
+    .button-container {
+        margin-top: 25px;
+        margin: auto;
+        width: 30%;
+    }
+    .paging-button {
+        background: #f4f4f4;
+        padding: 10px 10px;
+        border: #de4b50 1px solid;
+        border-radius: 5px;
+        color: #333;
+        margin: 10px;
+        cursor: pointer;
+    }
 }
 
-.paging-button {
+@media only screen and (max-width: 1000px) and (min-width: 880px) {
+    .button-container {
+        margin-top: 25px;
+        margin: auto;
+        width: 30%;
+    }
+    .paging-button {
+        background: #f4f4f4;
+        padding: 10px 10px;
+        border: #de4b50 1px solid;
+        border-radius: 5px;
+        color: #333;
+        margin: 10px;
+        cursor: pointer;
+    }
+}
+
+@media only screen and (max-width: 880px) and (min-width: 720px) {
+    .button-container {
+        margin-top: 25px;
+        margin: auto;
+        width: 36%;
+    }
+    .paging-button {
+        background: #f4f4f4;
+        padding: 10px 10px;
+        border: #de4b50 1px solid;
+        border-radius: 5px;
+        color: #333;
+        margin: 10px;
+        cursor: pointer;
+    }
+}
+
+@media only screen and (max-width: 720px) and (min-width: 480px) {
+    .button-container {
+        margin-top: 25px;
+        margin: auto;
+        width: 50%;
+    }
+    .paging-button {
+        background: #f4f4f4;
+        padding: 10px 10px;
+        border: #de4b50 1px solid;
+        border-radius: 5px;
+        color: #333;
+        margin: 10px;
+        cursor: pointer;
+    }
+}
+
+@media only screen and (max-width: 480px) and (min-width: 360px) {
+    .button-container {
+        margin-top: 25px;
+        margin: auto;
+        width: 72%;
+    }
+    .paging-button {
+        background: #f4f4f4;
+        padding: 10px 10px;
+        border: #de4b50 1px solid;
+        border-radius: 5px;
+        color: #333;
+        margin: 10px;
+        cursor: pointer;
+    }
+}
+
+@media only screen and (max-width: 360px) and (min-width: 200px) {
+    .button-container {
+        margin-top: 25px;
+        margin: auto;
+        width: 90%;
+    }
+    .paging-button {
+        background: #f4f4f4;
+        padding: 10px 10px;
+        border: #de4b50 1px solid;
+        border-radius: 5px;
+        color: #333;
+        margin: 10px;
+        cursor: pointer;
+    }
+}
+
+
+/* .paging-button {
     background: #f4f4f4;
     padding: 8px 13px;
     border: #de4b50 1px solid;
@@ -169,4 +268,4 @@ footer {
     color: #333;
     margin: 10px;
     cursor: pointer;
-}
+} */
