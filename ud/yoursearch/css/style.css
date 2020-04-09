@@ -225,7 +225,24 @@ footer {
     }
 }
 
-@media only screen and (max-width: 480px) and (min-width: 370px) {
+@media only screen and (max-width: 480px) and (min-width: 405px) {
+    .button-container {
+        margin-top: 25px;
+        margin: auto;
+        width: 60%;
+    }
+    .paging-button {
+        background: #f4f4f4;
+        padding: 10px 10px;
+        border: #de4b50 1px solid;
+        border-radius: 5px;
+        color: #333;
+        margin: 10px;
+        cursor: pointer;
+    }
+}
+
+@media only screen and (max-width: 405px) and (min-width: 370px) {
     .button-container {
         margin-top: 25px;
         margin: auto;
