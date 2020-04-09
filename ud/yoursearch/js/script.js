@@ -1,37 +1,3 @@
-// Search bar handler
-$(function() {
-    var searchfield = $('#query');
-    var icon = $('#search-btn');
-
-    // focus handler
-    $(searchfield).on('focus', function() {
-        $(this).animate({
-            width: '100%'
-        }, 400);
-
-        $(icon).animate({
-            right: '10px'
-        }, 400);
-    });
-
-    // Blur event handler
-
-    $(searchfield).on('blur', function() {
-        if (searchfield.val() == '') {
-            $(searchfield).animate({
-                width: '45%'
-            }, 400, function() {});
-
-            $(icon).animate({
-                right: '360px'
-            }, 400, function() {});
-        }
-    });
-    $('#search-form').submit(function(e) {
-        e.preventDefault();
-    });
-})
-
 // Search function
 function search() {
     //Clear results
@@ -40,12 +6,13 @@ function search() {
 
     q = $('#query').val();
 
-    // GET request
+    // // GET request
     $.get(
         "https://www.googleapis.com/youtube/v3/search", {
-            part: 'snippet,id',
+            part: 'snippet',
             q: q,
             type: 'video',
+            maxResults: 10,
             key: 'AIzaSyBz9PLNYmP_LcKrV5Z3JttbYpH-1vjt8XU'
         },
         function(data) {
@@ -78,16 +45,13 @@ function nextPage() {
 
     q = $('#query').val();
 
-    $.get("https://www.googleapis.com/youtube/v3/search", {
-
-    });
-
     // GET request
     $.get("https://www.googleapis.com/youtube/v3/search", {
             part: 'snippet,id',
             q: q,
             pageToken: token,
             type: 'video',
+            maxResults: 10,
             key: 'AIzaSyBz9PLNYmP_LcKrV5Z3JttbYpH-1vjt8XU'
         },
         function(data) {
@@ -128,6 +92,7 @@ function prevPage() {
             q: q,
             pageToken: token,
             type: 'video',
+            maxResults: 10,
             key: 'AIzaSyBz9PLNYmP_LcKrV5Z3JttbYpH-1vjt8XU'
         },
         function(data) {
@@ -190,3 +155,37 @@ function getButtons(prevPageToken, nextPageToken) {
     }
     return btnoutput;
 }
+
+// Search bar handler
+$(function() {
+    var searchfield = $('#query');
+    var icon = $('#search-btn');
+
+    // focus handler
+    $(searchfield).on('focus', function() {
+        $(this).animate({
+            width: '100%'
+        }, 800);
+
+        $(icon).animate({
+            right: '10px'
+        }, 800);
+    });
+
+    // Blur event handler
+    $(searchfield).on('blur', function() {
+        if (searchfield.val() == '') {
+            $(searchfield).animate({
+                width: '60%'
+            }, 800, function() {});
+
+            $(icon).animate({
+                right: '430px'
+            }, 800, function() {});
+        }
+    });
+
+    $('#search-form').submit(function(e) {
+        e.preventDefault();
+    });
+})
