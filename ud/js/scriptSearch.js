@@ -159,10 +159,10 @@ function getOutput(item) {
 
     var output = '<li>' +
         '<div class = "list-left">' +
-        '<a class="fancybox fancybox.iframe" data-fancybox="gallery" data-height="1200" href="https://www.youtube.com/embed/' + videoId + '"><img src = "' + thumb + '" title="' + title + '"></a>' +
+        '<a class="fancybox fancybox.iframe" data-fancybox="gallery" data-width="2400" data-height="2400" href="https://www.youtube.com/embed/' + videoId + '"><img src = "' + thumb + '" title="' + title + '"></a>' +
         '</div>' +
         '<div class = "list-right">' +
-        '<h3><a class="fancybox fancybox.iframe" data-fancybox="video"  data-height="1200" href="https://www.youtube.com/embed/' + videoId + '">' + title + '</a></h3>' +
+        '<h3><a class="fancybox fancybox.iframe" data-fancybox="video" data-width="2400" data-height="2400" href="https://www.youtube.com/embed/' + videoId + '">' + title + '</a></h3>' +
         '<small>By <span class = "cTitle">' + channelTitle + '</span>on ' + videoDate + '</small>' +
         '<p>' + description + '</p>' +
         '</div>' +
