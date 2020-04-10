@@ -159,7 +159,7 @@ function getOutput(item) {
 
     var output = '<li>' +
         '<div class = "list-left">' +
-        '<a class="fancybox fancybox.iframe" data-fancybox="gallery" data-width="1200" data-height="1200" href="https://www.youtube.com/embed/' + videoId + '"><img src = "' + thumb + '" title="' + title + '"></a>' +
+        '<a class="fancybox fancybox.iframe" data-fancybox="gallery" href="https://www.youtube.com/embed/' + videoId + '"><img src = "' + thumb + '" title="' + title + '"></a>' +
         '</div>' +
         '<div class = "list-right">' +
         '<h3><a class="fancybox fancybox.iframe" data-fancybox="video" data-width="1200" data-height="1200" href="https://www.youtube.com/embed/' + videoId + '">' + title + '</a></h3>' +
