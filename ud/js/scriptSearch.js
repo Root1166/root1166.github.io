@@ -7,11 +7,11 @@ $(function() {
     $(searchfield).on('focus', function() {
         $(this).animate({
             width: '100%'
-        }, 800);
+        }, 400);
 
         $(icon).animate({
             right: '10px'
-        }, 800);
+        }, 400);
     });
 
     // Blur event handler
@@ -46,7 +46,6 @@ function search() {
             part: 'snippet,id',
             q: q,
             type: 'video',
-            maxResults: 10,
             key: 'AIzaSyBFBCB7KZ3FnKWUa7vzt3b3kynwNo8d5pE'
         },
         function(data) {
@@ -85,7 +84,6 @@ function nextPage() {
             q: q,
             pageToken: token,
             type: 'video',
-            maxResults: 10,
             key: 'AIzaSyBFBCB7KZ3FnKWUa7vzt3b3kynwNo8d5pE'
         },
         function(data) {
@@ -126,7 +124,6 @@ function prevPage() {
             q: q,
             pageToken: token,
             type: 'video',
-            maxResults: 10,
             key: 'AIzaSyBFBCB7KZ3FnKWUa7vzt3b3kynwNo8d5pE'
         },
         function(data) {
