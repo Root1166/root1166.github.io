@@ -5,6 +5,7 @@
 }
 
 .sidebar {
+    /* overflow: hidden; */
     height: 50px;
     padding: 10px;
     line-height: 50px;
@@ -102,6 +103,8 @@ li:hover ul.cap_2 {
     }
     .icon {
         display: block;
+        position: relative;
+        color: black;
     }
     ul.cap_2 {
         width: 100%;
