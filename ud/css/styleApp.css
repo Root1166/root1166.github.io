@@ -4,14 +4,42 @@
     border: none;
 }
 
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* #img img {
+    width: 1110px;
+    position: relative;
+} */
+
+.img-header {
+    background-image: url(../img/banner.jpg);
+    /* height: 100%; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+    color: #ffffff;
+    height: 350px;
+    margin-top: 10px;
+}
+
 .sidebar {
     /* overflow: hidden; */
     height: 50px;
-    padding: 10px;
+    padding: 5px 40px 60px 40px;
     line-height: 50px;
     color: white;
     font-family: sans-serif;
-    background-color: #382447;
+    background-color: #bc5dcf;
+    font-size: 20px;
 }
 
 ul {
