@@ -4,6 +4,84 @@
     border: none;
 }
 
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
 body {
     font-family: sans-serif;
     margin: 0;
@@ -17,39 +95,14 @@ body {
 } */
 
 .img-header {
-    /* background: url(../img/banner.jpg) no-repeat center top;
-    /* height: 100%; */
-    /* background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    padding: 20px;
-    text-align: center;
-    font-size: 30px;
-    color: #ffffff;
-    height: 350px;
-    margin-top: 10px; */
-    /* margin-top: 0px;
-    padding-top: 70px;
-    text-align: center;
-    background-attachment: relative;
-    background-position: center center;
-    /* min-height: 480px; */
-    /* width: 100%;
-    -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: 100%;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;  */
     background: url(../img/banner.jpg) no-repeat center top;
     margin-top: 0px;
     padding-top: 60px;
     text-align: center;
     background-attachment: relative;
     background-position: center center;
-    min-height: 480px;
+    min-height: 100%;
+    height: 300px;
     width: 100%;
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
@@ -59,6 +112,14 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     /* background-size: cover; */
+}
+
+@media only screen and (max-width:40em) {
+    .img-header {
+        background-image: url(../img/banner2.jpg);
+        min-height: 100px;
+        height: 200px;
+    }
 }
 
 .sidebar {
