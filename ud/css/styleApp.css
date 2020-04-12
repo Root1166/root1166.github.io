@@ -184,7 +184,7 @@ section {
 }
 
 #content-Left {
-    height: 30em;
+    /* height: 30em; */
     margin-left: 0;
     margin-right: 0;
     padding: 0;
