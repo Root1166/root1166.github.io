@@ -3,6 +3,7 @@
     /* padding: 0;
     border: none; */
     /* height: 100%; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 body {
@@ -168,11 +169,18 @@ section {
 
 #content-Left {
     background-color: silver;
-    height: 100em;
+    height: 30em;
+}
+
+#content-Right {
+    background-color: turquoise;
+    height: 50em;
 }
 
 footer {
     padding: 20px;
     background: #f4f4f4;
     text-align: center;
+    font-weight: 5em;
+    font-size: 1.5em;
 }
