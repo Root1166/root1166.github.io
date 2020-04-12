@@ -173,8 +173,17 @@ section {
 
 /* =================================================== */
 
+.box-left {
+    float: left;
+    width: 260px;
+    margin-top: 50px;
+}
+
+.box-left.mt0 {
+    margin-top: 0;
+}
+
 #content-Left {
-    /* background-color: silver; */
     height: 30em;
     margin-left: 0;
     margin-right: 0;
@@ -240,39 +249,6 @@ section {
 
 .sidebar-left2 .sidebar-menu .menu-open .icon {
     transform: rotate(180deg);
-}
-
-.menu-sub {
-    list-style: none;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 200px;
-    box-shadow: 0px 1px 8px -4px #333;
-    background-color: #e89e51;
-    /*display: none;*/
-    opacity: 0;
-    visibility: hidden;
-    top: 150%;
-    transition: all 0.5s ease-in-out;
-}
-
-.menu-sub ul {
-    top: 0;
-    /*left: 100%;*/
-    left: 150%;
-}
-
-.menu-cap3 li:hover>.menu-sub {
-    /*display: block;*/
-    opacity: 1;
-    visibility: visible;
-    top: 100%;
-}
-
-.menu-sub li:hover>ul {
-    top: 0;
-    left: 100%;
 }
 
 
