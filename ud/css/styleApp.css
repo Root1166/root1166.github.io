@@ -161,3 +161,18 @@ body {
         height: 13%;
     }
 }
+
+section {
+    margin-top: 3px;
+}
+
+#content-Left {
+    background-color: silver;
+    height: 100em;
+}
+
+footer {
+    padding: 20px;
+    background: #f4f4f4;
+    text-align: center;
+}
