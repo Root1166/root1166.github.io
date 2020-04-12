@@ -167,10 +167,119 @@ section {
     margin-top: 3px;
 }
 
+
+/* css Left content */
+
+
+/* =================================================== */
+
 #content-Left {
-    background-color: silver;
+    /* background-color: silver; */
     height: 30em;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
 }
+
+.sidebar-left2 {
+    background-color: #e3e6e8;
+    border-radius: 10px;
+    padding: 3px;
+    margin-left: 0;
+    margin-right: 10px;
+}
+
+.sidebar-left2 .sidebar-title {
+    color: #333;
+    font-size: 30px;
+    line-height: 22px;
+    font-weight: bold;
+    margin: 0 0 15px;
+    text-align: center;
+}
+
+.sidebar-left2 .sidebar-menu {
+    list-style: none;
+}
+
+.sidebar-left2 .sidebar-menu li {
+    display: block;
+}
+
+.sidebar-left2 .sidebar-menu li a {
+    display: block;
+    font-size: 20px;
+    line-height: 1.2;
+    text-decoration: none;
+    padding: 5px 0;
+    position: relative;
+    color: #000;
+}
+
+.sidebar-left2 .sidebar-menu li a:hover {
+    color: #4caf50;
+}
+
+.sidebar-left2 .sidebar-menu li ul {
+    padding-left: 20px;
+    list-style: none;
+    display: none;
+}
+
+.sidebar-left2 .sidebar-menu li.has-child>a .icon {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 4px;
+    width: 20px;
+    height: 20px;
+    background: url(https://theme.hstatic.net/1000006434/1000483725/14/menu-arrow.png?v=162) center center no-repeat;
+    background-size: 14px;
+    transition: all 0.3s ease-in-out;
+}
+
+.sidebar-left2 .sidebar-menu .menu-open .icon {
+    transform: rotate(180deg);
+}
+
+.menu-sub {
+    list-style: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 200px;
+    box-shadow: 0px 1px 8px -4px #333;
+    background-color: #e89e51;
+    /*display: none;*/
+    opacity: 0;
+    visibility: hidden;
+    top: 150%;
+    transition: all 0.5s ease-in-out;
+}
+
+.menu-sub ul {
+    top: 0;
+    /*left: 100%;*/
+    left: 150%;
+}
+
+.menu-cap3 li:hover>.menu-sub {
+    /*display: block;*/
+    opacity: 1;
+    visibility: visible;
+    top: 100%;
+}
+
+.menu-sub li:hover>ul {
+    top: 0;
+    left: 100%;
+}
+
+
+/* css Right content */
+
+
+/* ============================================ */
 
 #content-Right {
     background-color: turquoise;
@@ -182,15 +291,5 @@ footer {
     background: #f4f4f4;
     text-align: center;
     font-weight: 5em;
-    font-size: 1.5em;
-}
-
-#list-left {
-    font-size: 20px;
-}
-
-#list-left>li {
-    text-decoration: none;
-    text-align: center;
-    line-height: 50px;
+    font-size: 1em;
 }
