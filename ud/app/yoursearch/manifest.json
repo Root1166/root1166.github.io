@@ -5,7 +5,7 @@
     "theme_color": "#4527A0",
     "background_color": "#eeeeee",
     "icons": [{
-        "src": "icon.png",
+        "src": "../../img/avatar.jpg",
         "sizes": "256x256",
         "type": "image/jpg"
     }],
