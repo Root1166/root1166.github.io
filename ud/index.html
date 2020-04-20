@@ -12,12 +12,24 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <script src="https://hstatic.net/0/0/global/design/plugins/jquery/jquery-1.11.3.min.js"></script>
     <script src="js/jquery.min.js"></script>
-    <script src="js/jquery.fancybox.min.js"></script>
+    <!-- <script src="js/jquery.fancybox.min.js"></script> -->
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital@0;1&family=Roboto:wght@300&display=swap" rel="stylesheet">
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Trang Congthanh |  FrontEnd" />
     <meta property="og:url" content="https://root5867.github.io/" />
     <meta property="og:site_name" content="Blog" />
+    <script>
+        $(".fancybox")
+            .attr('rel', 'gallery')
+            .fancybox({
+                beforeShow: function() {
+                    /* Disable right click */
+                    $.fancybox.wrap.bind("contextmenu", function(e) {
+                        return false;
+                    });
+                }
+            });
+    </script>
 </head>
 
 <body>
@@ -121,18 +133,56 @@
                                                 <li><a href="/ud/app/ExJS/caculator/">Caculator</a> </li>
                                             </ul>
                                         </li>
-                                        <li class="has-child">
-                                            <a href="https://www.facebook.com/congthanh9768">Facebook<i class="icon"></i></a>
+                                        <li>
+                                            <a href="https://www.facebook.com/congthanh9768">Facebook</a>
                                         </li>
                                         <li><a href="https://vn.linkedin.com/in/congthanh97">LinkedIn</a> </li>
                                         <li><a href="#">Liên hệ</a> </li>
                                     </ul>
                                 </div>
                             </div>
+                            <div class="col-md-12" style="margin-top: 10px;">
+                                <div class="sidebar-left2">
+                                    <h3 class="sidebar-title">Top</h3>
+                                    <ul class="sidebar-menu">
+                                        <li>
+                                            <a href="#">List</a>
+                                        </li>
+                                        <li class="has-child">
+                                            <a href="#">Link<i class="icon"></i></a>
+                                            <ul class="menu-sub">
+                                                <li><a href="/ud/app/ExJS/PrimeNumber/">PrimeNumber</a> </li>
+                                                <li><a href="/ud/app/ExJS/PrintWithFor/">PrintWithFor</a></li>
+                                                <li><a href="/ud/app/ExJS/TimerCurent/">TimerCurent</a> </li>
+                                                <li><a href="/ud/app/ExJS/TotalEven/">TotalEven</a> </li>
+                                                <li><a href="/ud/app/ExJS/mapp/">Mapp</a> </li>
+                                                <li><a href="/ud/app/ExJS/clock/">Clock</a> </li>
+                                                <li><a href="/ud/app/ExJS/caculator/">Caculator</a> </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="#">Picture</a>
+                                        </li>
+                                        <li><a href="https://vn.linkedin.com/in/congthanh97">LinkedIn</a> </li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="col-md-9" id="content-Right">
-                        col-md-9
+                        <!-- <a class="fancybox" href="http://fancyapps.com/fancybox/demo/1_b.jpg"><img src="http://fancyapps.com/fancybox/demo/2_s.jpg" alt="" /></a> -->
+                        <!-- <a class="fancybox" href="http://fancyapps.com/fancybox/demo/2_b.jpg"><img src="http://fancyapps.com/fancybox/demo/3_s.jpg" alt="" /></a> -->
+                        <i class="fa fa-arrow-left fa-2x" alt="Previous" id="prev"></i>
+                        <div id="slider">
+                            <div class="slide active">
+                                <div class="slide-copy">
+                                    <h2>helo</h2>
+                                    <p>Wellcometo picgirl</p>
+                                    <img src="img\picGirls\1.jpg" alt="girl">
+                                </div>
+                            </div>
+                        </div>
+                        <i class="fa fa-arrow-right fa-5x" alt="Next" id="next"></i>
                     </div>
                 </div>
             </section>
@@ -147,17 +197,8 @@
     </div>
     <script>
         $(document).ready(function() {
-            $('.sidebar-left .sidebar-menu li.has-child > a .icon').click(function(e) {
-                e.preventDefault();
-                $(this).parent().parent().toggleClass('menu-open');
-            });
             $('.sidebar-left2 .sidebar-menu li.has-child > a .icon').click(function(e) {
                 e.preventDefault();
-                $(this).parent().toggleClass('menu-open').next('ul').slideToggle();
-            });
-            $('.sidebar-left3 .sidebar-menu li.has-child > a .icon').click(function(e) {
-                e.preventDefault();
-                $(this).parent().parent().siblings().find('a').removeClass('menu-open').next('ul').slideUp();
                 $(this).parent().toggleClass('menu-open').next('ul').slideToggle();
             });
         })
