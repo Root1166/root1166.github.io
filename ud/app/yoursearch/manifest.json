@@ -7,7 +7,7 @@
     "icons": [{
         "src": "../../img/avatar.jpg",
         "sizes": "256x256",
-        "type": "image/jpg"
+        "type": "../../img/jpg"
     }],
     "display": "standalone",
     "orientation": "portrait"
