@@ -3,6 +3,7 @@ var filesToCache = [
     '',
     'index.html',
     'css/style.css',
+    'css/jquery.fancybox.min.css',
     'js/main.js',
     'js/bootstrap.min.js',
     'js/jquery.fancybox.min.js',
