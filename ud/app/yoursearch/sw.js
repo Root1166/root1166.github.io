@@ -2,13 +2,15 @@ var cacheName = 'Search myApp';
 var filesToCache = [
     '/',
     '/index.html',
+    '/manifest.json',
     '../../css/styleSearch.css',
     ' ../../css/jquery.fancybox.min.css',
+    '/main.js',
     '../../js/scriptSearch.js',
     '../../js/scriptSearch.js',
     '../../js/jquery.fancybox.min.js',
     '../../js/jquery.min.js',
-    '../../img/avatar.jpg'
+    '../../img/icon-search.png'
 
 ];
 
