@@ -2,7 +2,7 @@
     "name": "Search Youtube",
     "short_name": "Search",
     "icons": [{
-        "src": "images/hello-icon-256.png",
+        "src": "images/avatar-icon-256-256.png",
         "sizes": "256x256",
         "type": "image/png"
     }],
