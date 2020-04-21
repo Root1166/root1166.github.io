@@ -2,13 +2,34 @@
     "name": "Search Youtube",
     "short_name": "Search",
     "icons": [{
-        "src": "images/avatar-icon-256-256.png",
+        "src": "images/avatar-icon-128.png",
+        "sizes": "128x128",
+        "type": "image/png"
+    }, {
+        "src": "images/avatar-icon-144.png",
+        "sizes": "144x144",
+        "type": "image/png"
+    }, {
+        "src": "images/avatar-icon-152.png",
+        "sizes": "152x152",
+        "type": "image/png"
+    }, {
+        "src": "images/avatar-icon-192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+    }, {
+        "src": "images/avatar-icon-256.png",
         "sizes": "256x256",
         "type": "image/png"
+    }, {
+        "src": "images/avatar-icon-512.png",
+        "sizes": "512x512",
+        "type": "image/png"
     }],
+
     "lang": "en-US",
     "start_url": "/ud/app/yoursearch/index.html",
     "display": "standalone",
-    "background_color": "#4527A0",
-    "theme_color": "#4527A0"
+    "background_color": "#e3f2ff",
+    "theme_color": "#e3f2ff"
 }
