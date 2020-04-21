@@ -1,13 +1,13 @@
-var cacheName = 'hello-pwa';
+var cacheName = 'yoursearch';
 var filesToCache = [
-    '/',
-    '/index.html',
-    '/css/style.css',
-    '/js/main.js',
-    '/js/bootstrap.min.js',
-    '/js/jquery.fancybox.min.js',
-    '/js/jquery.min.js',
-    '/js/scriptSearch.js'
+    '',
+    'index.html',
+    'css/style.css',
+    'js/main.js',
+    'js/bootstrap.min.js',
+    'js/jquery.fancybox.min.js',
+    'js/jquery.min.js',
+    'js/scriptSearch.js'
 
 ];
 
