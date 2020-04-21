@@ -101,15 +101,17 @@ $(document).ready(function() {
 });
 
 function Yeu() {
-    $("#divResult").fadeOut(0);
-    $("#divResult").html("</br><h2>Ủ ÔI! AI CŨNG NÓI VẬY ĐÓ <img src='http://vozforums.com/images/smilies/Off/adore.gif'</img></h2>");
-    $("#divResult").fadeIn(2000, function() {
-        $("#divResult2").fadeOut(0);
-        $("#divResult2").html("<p>Mặc kệ người ta nói, Anh chỉ yêu mình em hoy <img src='http://vozforums.com/images/smilies/Off/jmg/angry.gif'/></p></br>");
-        $("#divResult2").fadeIn(2000, function() {
-            $("#divResult3").fadeOut(0);
-            $("#divResult3").html("<p>Anh yêu em lắm ♥ <img src='http://vozforums.com/images/smilies/Off/jmg/sure.gif'/></p></br>");
-            $("#divResult3").fadeIn(2000);
-        });
-    });
+	$("#divResult").fadeOut(0);
+	$("#divResult").html("</br><h2>Ủ ÔI! AI CŨNG NÓI ANH VẬY  ĐÓ <img src='http://vozforums.com/images/smilies/Off/adore.gif'</img></h2>");
+	$("#divResult").fadeIn(2000, function () {
+		$("#divResult2").fadeOut(0);
+		$("#divResult2").html("<p>Mặc kệ người ta nói như thế nào về anh, Anh chỉ yêu mình em thôi <img src='http://vozforums.com/images/smilies/Off/angry.gif'/></p></br>");
+		$("#divResult2").fadeIn(2000, function () {
+			$("#divResult3").fadeOut(0);
+			$("#divResult3").html("<p>Anh yêu em nhiều lắm ♥ <img src='http://vozforums.com/images/smilies/Off/sure.gif'/></p></br>");
+			$("#divResult3").fadeIn(2000);
+		}
+		);
+	}
+	);
 }
