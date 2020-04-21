@@ -102,13 +102,13 @@ $(document).ready(function() {
 
 function Yeu() {
     $("#divResult").fadeOut(0);
-    $("#divResult").html("</br><h2>Ủ ÔI! AI CŨNG NÓI VẬY ĐÓ <img src='../jmg/adore.gif'</img></h2>");
+    $("#divResult").html("</br><h2>Ủ ÔI! AI CŨNG NÓI VẬY ĐÓ <img src='../../jmg/adore.gif'</img></h2>");
     $("#divResult").fadeIn(2000, function() {
         $("#divResult2").fadeOut(0);
-        $("#divResult2").html("<p>Mặc kệ người ta nói, Anh chỉ yêu mình em hoy <img src='../jmg/angry.gif'/></p></br>");
+        $("#divResult2").html("<p>Mặc kệ người ta nói, Anh chỉ yêu mình em hoy <img src='../../jmg/angry.gif'/></p></br>");
         $("#divResult2").fadeIn(2000, function() {
             $("#divResult3").fadeOut(0);
-            $("#divResult3").html("<p>Anh yêu em lắm ♥ <img src='../jmg/sure.gif'/></p></br>");
+            $("#divResult3").html("<p>Anh yêu em lắm ♥ <img src='../../jmg/sure.gif'/></p></br>");
             $("#divResult3").fadeIn(2000);
         });
     });
