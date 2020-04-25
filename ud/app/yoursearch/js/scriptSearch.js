@@ -157,6 +157,7 @@ function getOutput(item) {
     var channelTitle = item.snippet.channelTitle;
     var videoDate = item.snippet.publishedAt;
 
+
     var output = '<li>' +
         '<div class = "list-left">' +
         '<a class="fancybox fancybox.iframe" data-fancybox="gallery"  href="https://www.youtube.com/embed/' + videoId + '"><img src = "' + thumb + '" title="' + title + '"></a>' +
