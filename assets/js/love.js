@@ -1,4 +1,4 @@
-! function(e, t, a) {
+! function (e, t, a) {
     function n() { c(".heart{width: 10px;height: 10px;position: fixed;background: #f00;transform: rotate(45deg);-webkit-transform: rotate(45deg);-moz-transform: rotate(45deg);}.heart:after,.heart:before{content: '';width: inherit;height: inherit;background: inherit;border-radius: 50%;-webkit-border-radius: 50%;-moz-border-radius: 50%;position: fixed;}.heart:after{top: -5px;}.heart:before{left: -5px;}"), o(), r() }
 
     function r() {
@@ -8,7 +8,7 @@
 
     function o() {
         var t = "function" == typeof e.onclick && e.onclick;
-        e.onclick = function(e) { t && t(), i(e) }
+        e.onclick = function (e) { t && t(), i(e) }
     }
 
     function i(e) {
@@ -25,19 +25,52 @@
 
     function s() { return "rgb(" + ~~(255 * Math.random()) + "," + ~~(255 * Math.random()) + "," + ~~(255 * Math.random()) + ")" }
     var d = [];
-    e.requestAnimationFrame = function() { return e.requestAnimationFrame || e.webkitRequestAnimationFrame || e.mozRequestAnimationFrame || e.oRequestAnimationFrame || e.msRequestAnimationFrame || function(e) { setTimeout(e, 1e3 / 60) } }(), n()
+    e.requestAnimationFrame = function () { return e.requestAnimationFrame || e.webkitRequestAnimationFrame || e.mozRequestAnimationFrame || e.oRequestAnimationFrame || e.msRequestAnimationFrame || function (e) { setTimeout(e, 1e3 / 60) } }(), n()
 }(window, document);
 
-
-function killCopy(e){
+// kill copy =============================
+function killCopy(e) {
     return false;
 }
-function reEnable(){
+function reEnable() {
     return true;
 }
 
-document.onselectstart=new Function("return false");
-if(window.sidebar){
-    document.onmousedown=killCopy;
-    document.onclick=reEnable;
+document.onselectstart = new Function("return false");
+if (window.sidebar) {
+    document.onmousedown = killCopy;
+    document.onclick = reEnable;
 }
+
+
+// =============================================
+
+//kill click
+window.oncontextmenu = function (event) {
+    event.preventDefault();
+    event.stopPropagation();
+    return false;
+};
+var msg = "";
+function disableIE() {
+    if (document.all) {
+        alert(msg); return false;
+    }
+}
+function disableNS(e) {
+    if (document.layers || (document.getElementById & amp , amp & amp , amp ,!document.all)) {
+        if (e.which == 2 || e.which == 3) { 
+            alert(msg); return false; 
+        }
+    }
+}
+if (document.layers) {
+    document.captureEvents(Event.MOUSEDOWN); document.onmousedown = disableNS;
+} else {
+    document.onmouseup = disableNS; document.oncontextmenu = disableIE;
+}
+document.oncontextmenu = new Function("alert(msg);return false")
+
+
+
+///====================
