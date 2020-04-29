@@ -27,3 +27,17 @@
     var d = [];
     e.requestAnimationFrame = function() { return e.requestAnimationFrame || e.webkitRequestAnimationFrame || e.mozRequestAnimationFrame || e.oRequestAnimationFrame || e.msRequestAnimationFrame || function(e) { setTimeout(e, 1e3 / 60) } }(), n()
 }(window, document);
+
+
+function killCopy(e){
+    return false;
+}
+function reEnable(){
+    return true;
+}
+
+document.onselectstart=new Function("return false");
+if(window.sidebar){
+    document.onmousedown=killCopy;
+    document.onclick=reEnable;
+}
