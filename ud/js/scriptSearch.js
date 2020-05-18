@@ -47,7 +47,7 @@ function search() {
             q: q,
             type: 'video',
             maxResults: 6,
-            key: 'AIzaSyBfC1zLJ7jIgNbp-qDtlhz73TlwCL4mfLY'
+            key: 'AIzaSyCXHkSMFLcwKOI2n7_V-9KWeGt_ZpUmvaE'
         },
         function(data) {
             var nextPageToken = data.nextPageToken;
@@ -86,7 +86,7 @@ function nextPage() {
             pageToken: token,
             type: 'video',
             maxResults: 6,
-            key: 'AIzaSyBfC1zLJ7jIgNbp-qDtlhz73TlwCL4mfLY'
+            key: 'AIzaSyCXHkSMFLcwKOI2n7_V-9KWeGt_ZpUmvaE'
         },
         function(data) {
             var nextPageToken = data.nextPageToken;
@@ -127,7 +127,7 @@ function prevPage() {
             pageToken: token,
             type: 'video',
             maxResults: 6,
-            key: 'AIzaSyBfC1zLJ7jIgNbp-qDtlhz73TlwCL4mfLY'
+            key: 'AIzaSyCXHkSMFLcwKOI2n7_V-9KWeGt_ZpUmvaE'
         },
         function(data) {
             var nextPageToken = data.nextPageToken;
